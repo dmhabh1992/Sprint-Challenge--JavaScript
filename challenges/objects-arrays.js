@@ -56,7 +56,7 @@ const velociraptor = {
 // Create a new roar method for the tyrannosaurus.  When called, return 
 //"RAWERSRARARWERSARARARRRR!" Log the result.'
 
-  console.log(tyrannosaurus.roar);
+  console.log(tyrannosaurus.roar());
 
 
 // ==== Arrays ====

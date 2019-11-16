@@ -8,10 +8,10 @@
 //using the dimension properties from CuboidMaker.  
 //Test your work by logging out your volume and surface area.
 class CuboidMaker {
-    constructor(length, width, height) {
-        this.length = length,
-        this.width = width,
-        this.height = height
+    constructor(attributes) {
+        this.length = attributes.length,
+        this.width = attributes.width,
+        this.height = attributes.height
     }
   }
   CuboidMaker.prototype.volume = function() {
